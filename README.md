@@ -49,24 +49,6 @@ The proposed circuits of the delay cell are designed using 90nm CMOS Technology 
 
 
 
-TRANSISTOR
-ASPECT RATIO
-M1, M2
-        430 NM / 90NM
-M3, M4
-         125NM / 90NM
-M5, M6
-         170NM / 90NM
-M7, M8
-         125NM / 90NM
-M9, M10
-         530NM / 90NM
-M11, M12
-         260NM / 90NM
-
-
-M3
-         365NM / 90NM
 
 
 
