@@ -43,7 +43,7 @@ In this experiment, Cadence Virtuoso was utilized to design, simulate, and analy
 
 
 ## Result & Discussion
-The proposed circuits of the delay cell are designed using 90nm CMOS Technology in Cadence Virtuoso software. The structure is implemented using the TMR Topology and Quad-rippled Topology. Power consumption for the fault-tolerant delay cell has been calculated. Before starting the actual design, it is important to fix the length of the device. Thus, the length selected for the design is L = 45nm, since the technology file used here is cmos_models_90nm.
+The proposed circuits of the delay cell are designed using 90nm CMOS Technology in Cadence Virtuoso software. The structure is implemented using the TMR Topology and Quad-rippled Topology. Power consumption for the fault-tolerant delay cell has been calculated. Before starting the actual design, it is important to fix the length of the device. Thus, the length selected for the design is L = 90nm, since the technology file used here is cmos_models_90nm.
 
 ![Screenshot 2024-10-22 194525](https://github.com/user-attachments/assets/dd0bbde1-8be1-495a-9543-208e9e91b295)
 
@@ -55,7 +55,7 @@ The proposed circuits of the delay cell are designed using 90nm CMOS Technology 
 
 
 
-The fault tolerant delay cell is powered by supply voltage of 1V. Primary and secondary input voltages vary between 0 to 1V. Vctrl1 and Vctrl2 are two control signals which vary from 0 to 1V, used for the purpose of fine tuning and coarse tuning respectively. In transient analysis, signals are applied through two different pair of inputs i.e. primary and secondary input. Secondary inputs (Vs+ and Vs−) are applied to PMOS transistor M3 and M4. Primary inputs (Vp+ and Vp−) are applied to NMOS transistor M1 and M2. As switching time of PMOS is lower than that of NMOS with same geometry size, the secondary inputs receive the skewed delayed signals earlier than primary inputs. This will help to reduce the switching time of PMOS. The output voltage is taken from two different node Vout+ (positive output node) and Vout− (negative output node). The transient response obtained by simulating fault tolerance delay cell is shown in figure 1.2.
+The fault tolerant delay cell is powered by supply voltage of 1V. Primary and secondary input voltages vary between 0 to 1V. Vctrl1 and Vctrl2 are two control signals which vary from 0 to 1V, used for the purpose of fine tuning and coarse tuning respectively. In transient analysis, signals are applied through two different pair of inputs i.e. primary and secondary input. Secondary inputs (Vs+ and Vs−) are applied to PMOS transistor M3 and M4. Primary inputs (Vp+ and Vp−) are applied to NMOS transistor M1 and M2. As switching time of PMOS is lower than that of NMOS with same geometry size, the secondary inputs receive the skewed delayed signals earlier than primary inputs. This will help to reduce the switching time of PMOS. The output voltage is taken from two different node Vout+ (positive output node) and Vout− (negative output node). The transient response obtained by simulating fault tolerance delay cell.
 
 
 ## Conclusion
