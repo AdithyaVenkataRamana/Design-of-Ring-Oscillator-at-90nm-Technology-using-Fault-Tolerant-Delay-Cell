@@ -1,7 +1,7 @@
 # Design-of-Ring-Oscillator-at-90nm-Technology-using-Fault-Tolerant-Delay-Cell
 
 
-**Abstract**
+## Abstract
 
 
 
@@ -25,7 +25,7 @@ The title "Design of Ring Oscillator at 90nm Technology using Fault Tolerant Del
 
 
 
-**Introduction**
+## Introduction
 
 
 In modern digital and communication systems, oscillators play a critical role in generating clock signals for synchronization and timing control. Among various types of oscillators, ring oscillators are particularly popular due to their simplicity, ease of integration, and flexibility in tuning frequency. A ring oscillator consists of an odd number of inverting stages connected in a loop, producing a periodic oscillating signal. As technology nodes shrink and device dimensions scale down, the design of ring oscillators becomes increasingly complex, especially when implemented at advanced process nodes such as 90nm technology.
@@ -35,14 +35,14 @@ At the 90nm scale, challenges such as power consumption, device variability, and
 
 
 
-**Materials & Methods**
+## Materials & Methods
 
 
 In this experiment, Cadence Virtuoso was utilized to design, simulate, and analyze the performance of a ring oscillator at 90nm technology, incorporating fault-tolerant delay cells to enhance circuit reliability, with careful consideration of process variations and device
  Characteristics.
 
 
-**Result & Discussion**
+## Result & Discussion
 The proposed circuits of the delay cell are designed using 90nm CMOS Technology in Cadence Virtuoso software. The structure is implemented using the TMR Topology and Quad-rippled Topology. Power consumption for the fault-tolerant delay cell has been calculated. Before starting the actual design, it is important to fix the length of the device. Thus, the length selected for the design is L = 45nm, since the technology file used here is cmos_models_90nm.
 
 ![Screenshot 2024-10-22 194525](https://github.com/user-attachments/assets/dd0bbde1-8be1-495a-9543-208e9e91b295)
@@ -58,7 +58,7 @@ The proposed circuits of the delay cell are designed using 90nm CMOS Technology 
 The fault tolerant delay cell is powered by supply voltage of 1V. Primary and secondary input voltages vary between 0 to 1V. Vctrl1 and Vctrl2 are two control signals which vary from 0 to 1V, used for the purpose of fine tuning and coarse tuning respectively. In transient analysis, signals are applied through two different pair of inputs i.e. primary and secondary input. Secondary inputs (Vs+ and Vs−) are applied to PMOS transistor M3 and M4. Primary inputs (Vp+ and Vp−) are applied to NMOS transistor M1 and M2. As switching time of PMOS is lower than that of NMOS with same geometry size, the secondary inputs receive the skewed delayed signals earlier than primary inputs. This will help to reduce the switching time of PMOS. The output voltage is taken from two different node Vout+ (positive output node) and Vout− (negative output node). The transient response obtained by simulating fault tolerance delay cell is shown in figure 1.2.
 
 
-**Conclusion**
+## Conclusion
 
 
 
