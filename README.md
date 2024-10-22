@@ -31,6 +31,9 @@ The title "Design of Ring Oscillator at 90nm Technology using Fault Tolerant Del
 In modern digital and communication systems, oscillators play a critical role in generating clock signals for synchronization and timing control. Among various types of oscillators, ring oscillators are particularly popular due to their simplicity, ease of integration, and flexibility in tuning frequency. A ring oscillator consists of an odd number of inverting stages connected in a loop, producing a periodic oscillating signal. As technology nodes shrink and device dimensions scale down, the design of ring oscillators becomes increasingly complex, especially when implemented at advanced process nodes such as 90nm technology.
 At the 90nm scale, challenges such as power consumption, device variability, and susceptibility to faults become more pronounced. In such scenarios, ensuring fault tolerance in the design becomes crucial to maintaining the circuit's performance and reliability. Fault-tolerant delay cells, when integrated into the ring oscillator, help mitigate the effects of device failures, process variations, and environmental disturbances, thus enhancing the overall robustness of the circuit. This research focuses on the design and implementation of a ring oscillator at 90nm technology using fault-tolerant delay cells to achieve high reliability, stability, and performance, making it suitable for use in advanced digital systems. The project aims to address both the technical challenges posed by the reduced feature size of 90nm technology and the need for dependable performance in critical applications.
 
+![photo_2024-10-22_18-59-21](https://github.com/user-attachments/assets/cfe4e65c-0ee0-4ec4-a12b-37e520177df3)
+
+
 
 **Materials & Methods**
 
