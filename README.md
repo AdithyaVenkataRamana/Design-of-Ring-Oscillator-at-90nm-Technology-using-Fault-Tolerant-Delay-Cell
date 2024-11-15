@@ -58,6 +58,14 @@ The proposed circuits of the delay cell are designed using 90nm CMOS Technology 
 
 
 The fault tolerant delay cell is powered by supply voltage of 1V. Primary and secondary input voltages vary between 0 to 1V. Vctrl1 and Vctrl2 are two control signals which vary from 0 to 1V, used for the purpose of fine tuning and coarse tuning respectively. In transient analysis, signals are applied through two different pair of inputs i.e. primary and secondary input. Secondary inputs (Vs+ and Vs−) are applied to PMOS transistor M3 and M4. Primary inputs (Vp+ and Vp−) are applied to NMOS transistor M1 and M2. As switching time of PMOS is lower than that of NMOS with same geometry size, the secondary inputs receive the skewed delayed signals earlier than primary inputs. This will help to reduce the switching time of PMOS. The output voltage is taken from two different node Vout+ (positive output node) and Vout− (negative output node). The transient response obtained by simulating fault tolerance delay cell.
+##	Output
+• Transient Response Analysis
+The transient response of the designed ring oscillator at 90nm technology is displayed in the graph below. The output voltages Vout+V_{\text{out+}}Vout+ and Vout-V_{\text{out-}}Vout- are shown in green and red, respectively. The response is observed over a time span of 10 nanoseconds (ns). Key observations include:
+•	Stable Oscillation: The transient response indicates an initial oscillation that stabilizes rapidly within a few nanoseconds, demonstrating the effectiveness of the fault-tolerant delay cell in achieving a stable oscillating signal.
+•	Output Voltage Levels: Both Vout+V_{\text{out+}}Vout+ and Vout-V_{\text{out-}}Vout- reach approximately 1V, corresponding to the supply voltage, which confirms the circuit's ability to maintain consistent voltage levels during operation.
+•	Switching Characteristics: The graph shows that the switching time is significantly reduced for the PMOS transistors, as evidenced by the response time difference between Vout+V_{\text{out+}}Vout+ and Vout-V_{\text{out-}}Vout-.
+This output confirms the circuit’s robustness and reliability, achieved through the implementation of fault-tolerant delay cells. The simulation results align well with the design goals, showcasing enhanced stability and reduced power consumption.
+![image_2024-11-14_20-58-21](https://github.com/user-attachments/assets/ba50a944-52f2-4d31-bcd8-073152558cd0)
 
 
 ## Conclusion
