@@ -47,7 +47,7 @@ In this experiment, Cadence Virtuoso was utilized to design, simulate, and analy
 ## Result & Discussion
 The proposed circuits of the delay cell are designed using 90nm CMOS Technology in Cadence Virtuoso software. The structure is implemented using the TMR Topology and Quad-rippled Topology. Power consumption for the fault-tolerant delay cell has been calculated. Before starting the actual design, it is important to fix the length of the device. Thus, the length selected for the design is L = 90nm, since the technology file used here is cmos_models_90nm.
 
-![Screenshot 2024-10-22 194525](https://github.com/user-attachments/assets/dd0bbde1-8be1-495a-9543-208e9e91b295)
+![Flowchart](https://github.com/user-attachments/assets/1e901764-c594-492c-9a00-b28f0fe45e36)
 
 
 
