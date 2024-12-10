@@ -42,7 +42,7 @@ At the 90nm scale, challenges such as power consumption, device variability, and
 
 In this experiment, Cadence Virtuoso was utilized to design, simulate, and analyze the performance of a ring oscillator at 90nm technology, incorporating fault-tolerant delay cells to enhance circuit reliability, with careful consideration of process variations and device
  Characteristics.
-
+![image](https://github.com/user-attachments/assets/7f8e1dd0-90d8-4615-adb1-8e4f3938c4c7)
 
 ## Result & Discussion
 The proposed circuits of the delay cell are designed using 90nm CMOS Technology in Cadence Virtuoso software. The structure is implemented using the TMR Topology and Quad-rippled Topology. Power consumption for the fault-tolerant delay cell has been calculated. Before starting the actual design, it is important to fix the length of the device. Thus, the length selected for the design is L = 90nm, since the technology file used here is cmos_models_90nm.
